@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Greenir</title>
+  <%= favicon_link_tag 'grassrute.png' %>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+ <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <!-- <div class="container"> -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="/">
+                    <img class='logo' src="<%= asset_path( 'grassrute.png' ) %>">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                  
+                  <!-- Need to make style into a class for active nav item -->
+                    <li>
+                        <a style="<%= 'color:red' if current_page?(action: 'how') %>" href="/how">How It Works</a>
+                    </li>
+                    <li>
+                        <a style="<%= 'color:red' if current_page?(action: 'faq') %>" href="/faq">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="/">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        <!-- </div> -->
+        <!-- /.container -->
+    </nav>
+
+<%= yield %>
+
+</body>
+</html>

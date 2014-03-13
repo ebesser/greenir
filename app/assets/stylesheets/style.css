@@ -1,0 +1,428 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+}
+
+/* Navigation Styling Starts */
+
+.nav {
+  margin-right: 20px;
+}
+.nav a {
+  margin-top: 20px;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.nav li a:hover {
+  color: #00AF33;
+  background-color: transparent;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar {
+  padding-top: 10px;
+}
+
+.container {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.logo {
+  height: 80px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+/* Navigation Styleing Ends */
+
+
+ /*Homepage Styling Begin*/
+.home {
+  width: 100%;
+  height: 100%;
+  background: url(renewables2.png) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}
+
+
+.home {
+  padding-top: 50px;
+}
+
+.home h1 {
+  color: white;
+  text-align: center;
+  margin-top: 0;
+  font-size: 50px;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-top: 120px;
+}
+
+.home h3 {
+  color: white;
+  text-align: center;
+  margin-top: 0;
+  font-size: 20px;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-top: 40px;
+}
+
+.home h2 {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 0;
+  font-size: 40px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.form {
+  text-align: center;
+  margin-top: 35px;
+}
+
+
+.home input {
+  width: 30%;
+  margin: auto;
+  height: 50px;
+  display: inline;
+  font-size: 25px;
+}
+
+.home input:focus::-webkit-input-placeholder { color:transparent; }
+.home input:focus:-moz-placeholder { color:transparent; }
+
+.home button {
+    vertical-align: top;
+    text-align: center;
+    margin: 0 auto;
+    height: 50px;
+    width: 7%;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-bottom: 5px solid green;
+    background-color: green;
+}
+
+/* Home Styling Ends */
+
+/* How It Works Styling Begins */
+.how_form {
+  width: 100%;
+  height: 250px;
+  background: url(renewables2.png) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+  text-align: center;
+}
+
+.how input {
+  width: 30%;
+  margin: auto;
+  height: 50px;
+  display: inline;
+  font-size: 25px;
+}
+
+.how input:focus::-webkit-input-placeholder { color:transparent; }
+.how input:focus:-moz-placeholder { color:transparent; }
+
+.how button {
+    vertical-align: top;
+    text-align: center;
+    margin: 0 auto;
+    height: 50px;
+    width: 7%;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-bottom: 5px solid green;
+    background-color: green;
+}
+
+.how_form h1 {
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 40px;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 0;
+}
+
+.how_it_works {
+  /*background-color: #f9f9f9;*/
+}
+#how_it_works_intro h1 {
+  text-align: center;
+  color: green;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 50px;
+  margin-top: 0;
+  padding-top: 20px;
+  font-weight: bold;
+
+}
+
+#how_it_works_intro h2 {
+  text-align: center;
+  /*color: green;*/
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 22px;
+  font-weight: bold;
+
+}
+
+#how_it_works_intro h3 {
+  text-align: center;
+  /*color: green;*/
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 17px;
+  font-weight: bold;
+
+
+}
+
+#how_it_works_sequence {
+  margin-top: 20px;
+  text-align: center;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+/*.col-lg-4 {
+  width: 300px;
+}*/
+
+#searchcloud {
+  height: 170px;
+  width: 170px;
+}
+
+#searchcloud {
+ /* height: 200px;
+  width: 200px;*/
+  border-radius: 120px;
+  /*-webkit-border-radius: 200px;*/
+  /*-moz-border-radius: 200px;*/
+  background-color: #d3d3d3;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#searchcloud:hover {
+  background-color: #00AF33;
+}
+
+#link_to_faq{
+  text-align: center;
+}
+
+#link_to_faq a {
+  color: green;
+
+}
+
+/* How It Works Styling Ends */
+
+
+/* Begin Show Page Styling */
+
+.show {
+   /*background-color: #f9f9f9;*/
+   /*height: 150%;*/
+}
+
+.show_top {
+   width: 100%;
+  height: 250px;
+  background: url(renewables2.png) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+  text-align: center;
+}
+
+.show_top h1 {
+  margin-top: 0;
+  color: white;
+  font-size: 50px;
+  padding-top: 100px;
+  display: inline-block;
+}
+
+#user_zip {
+  font-weight: bold;
+  color: #00AF33;
+}
+
+
+.show_top form {
+  /*padding-top: 150px;*/
+}
+.show_top input {
+  width: 20%;
+  margin: auto;
+  height: 50px;
+  display: inline;
+  font-size: 25px;
+}
+
+.show_top button {
+   vertical-align: top;
+    text-align: center;
+    margin: 0 auto;
+    height: 50px;
+    width: 125px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-bottom: 5px solid green;
+    background-color: green;
+}
+
+
+.show_results {
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+
+
+#results_dropdown {
+  float: right;
+  margin-top: 10px;
+   margin-left: 20%;
+  margin-right: 20%;
+}
+
+.order_results {
+  /*position: absolute;*/
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  /*display: inline;*/
+  /*float: right;*/
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  font-size: 14px;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.show input:focus::-webkit-input-placeholder { color:transparent; }
+.show input:focus:-moz-placeholder { color:transparent; }
+
+
+.results .row {
+  height: 150px;
+  width: 100%;
+  border: 1px solid #DCDCDC;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.results img {
+  width: 100%;
+  margin-top: 35px;
+}
+
+#result_bio {
+  margin-top: 18px;
+}
+
+#result_bio a {
+ color: green;
+}
+
+#result_select p {
+  color: green;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+#result_select span {
+  font-size: 15px;
+}
+
+#result_select button {
+  vertical-align: top;
+    text-align: center;
+    margin: 0 auto;
+    height: 40px;
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-bottom: 5px solid green;
+    background-color: green;
+}
+
+
+/* End Show Page Styling */
+
+
+
+/* Start FAQ Page Styling */
+
+.faq input {
+  width: 30%;
+  margin: auto;
+  height: 50px;
+  display: inline;
+  font-size: 25px;
+}
+
+.faq input:focus::-webkit-input-placeholder { color:transparent; }
+.faq input:focus:-moz-placeholder { color:transparent; }
+
+.faq button {
+    vertical-align: top;
+    text-align: center;
+    margin: 0 auto;
+    height: 50px;
+    width: 7%;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-bottom: 5px solid green;
+    background-color: green;
+}
+
+
+
+/* End FAQ Page Styling */
