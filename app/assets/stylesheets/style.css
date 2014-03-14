@@ -71,7 +71,7 @@ body {
   font-size: 50px;
   margin-right: 5%;
   margin-left: 5%;
-  padding-top: 120px;
+  padding-top: 200px;
 }
 
 .home h3 {
@@ -188,10 +188,10 @@ body {
 
 #how_it_works_intro h2 {
   text-align: center;
-  /*color: green;*/
+  color: green;
   margin-left: 5%;
   margin-right: 5%;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
 
 }
