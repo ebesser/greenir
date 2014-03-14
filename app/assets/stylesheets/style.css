@@ -16,7 +16,7 @@ body {
 }
 .nav a {
   margin-top: 20px;
-  color: white;
+  color: #d3d3d3;
   font-size: 17px;
   font-weight: bold;
 }
@@ -176,7 +176,7 @@ body {
 }
 #how_it_works_intro h1 {
   text-align: center;
-  color: green;
+  /*color: green;*/
   margin-left: 5%;
   margin-right: 5%;
   font-size: 50px;
@@ -189,16 +189,16 @@ body {
 #how_it_works_intro h2 {
   text-align: center;
   /*color: green;*/
-  margin-left: 10%;
-  margin-right: 10%;
-  font-size: 22px;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 30px;
   font-weight: bold;
 
 }
 
 #how_it_works_intro h3 {
   text-align: center;
-  /*color: green;*/
+  color: green;
   margin-left: 10%;
   margin-right: 10%;
   font-size: 17px;
@@ -421,6 +421,35 @@ body {
     border: none;
     border-bottom: 5px solid green;
     background-color: green;
+}
+
+.questions {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.questions h1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 45px;
+}
+
+
+.accordion {
+  margin-bottom: 20px;
+}
+.accordion-heading a {
+  font-size: 28px;
+  color: green;
+}
+
+
+.accordion-inner {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.accordion-inner a {
+  color: green;
 }
 
 

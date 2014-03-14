@@ -1930,6 +1930,10 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap requires jQuery'
     return this
   }
 
+  $('.accordion').on('show hide', function (n) {
+    $(n.target).siblings('.accordion-heading').find('.accordion-toggle i').toggleClass('icon-chevron-up icon-chevron-down');
+});
+
 
   // AFFIX DATA-API
   // ==============
