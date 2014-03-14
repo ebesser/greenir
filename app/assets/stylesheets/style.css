@@ -188,10 +188,10 @@ body {
 
 #how_it_works_intro h2 {
   text-align: center;
-  color: green;
-  margin-left: 5%;
-  margin-right: 5%;
-  font-size: 25px;
+  /*color: green;*/
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 20px;
   font-weight: bold;
 
 }
@@ -447,11 +447,19 @@ body {
 .accordion-inner {
   font-size: 17px;
   margin-bottom: 10px;
+  margin-left: 25px;
 }
 .accordion-inner a {
   color: green;
 }
 
+.faq h1 {
+  text-align: center;
+}
 
+.faq a {
+  color: green;
+
+}
 
 /* End FAQ Page Styling */
