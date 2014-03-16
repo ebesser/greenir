@@ -8,6 +8,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <%= csrf_meta_tags %>
 </head>
+<!-- Facebook Like Scripts -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=668754713163825";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- End FB Stuff -->
+
+<!-- Twitter Follow Script -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<!-- End Twitter Follow -->
+
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 
  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -17,7 +33,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand" href="/">
-                    <img class='logo' src="<%= asset_path( 'grassrute.png' ) %>">
+                    <img class='logo' src="<%= asset_path( 'grassrute.png' ) %>">  <span style='color: white;'>Greenir</span>
                 </a>
             </div>
 
@@ -27,9 +43,9 @@
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                   
                   <!-- Need to make style into a class for active nav item -->
-                    <li>
+                    <!-- <li>
                         <a href="/how">How It Works</a>
-                    </li>
+                    </li> -->
                     <li>
                         <a href="/faq">FAQ</a>
                     </li>
@@ -44,7 +60,24 @@
         <!-- /.container -->
     </nav>
 
+
+
 <%= yield %>
+
+<!-- Start Footer -->
+<footer>
+   <!-- Start Social Media -->
+   <div class='social'>
+        <a href="https://twitter.com/Greenir" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @Greenir</a>
+
+
+        <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+    </div>
+
+<!-- End Social Media -->
+</footer>
+
+<!-- End Footer -->
 
 </body>
 </html>
