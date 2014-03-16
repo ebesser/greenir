@@ -5864,14 +5864,16 @@ body {
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 }
 
+
 /* Navigation Styling Starts */
 
 .nav {
   margin-right: 20px;
+
 }
 .nav a {
   margin-top: 20px;
-  color: #d3d3d3;
+  color: white;
   font-size: 17px;
   font-weight: bold;
 }
@@ -5886,7 +5888,8 @@ body {
 }
 
 .navbar {
-  padding-top: 10px;
+  /*padding-top: 10px;*/
+  background-color: rgba(26, 26, 102, 0.5);
 }
 
 .container {
@@ -5900,13 +5903,25 @@ body {
   margin-left: 30px;
 }
 
+footer {
+  background-color: #edeef0;
+  height: 60px;
+  bottom: 0;
+  /*position: absolute;*/
+}
+
+.social {
+  text-align: center;
+  padding-top: 15px;
+}
+
 /* Navigation Styleing Ends */
 
 
  /*Homepage Styling Begin*/
 .home {
   width: 100%;
-  height: 100%;
+  height: 80%;
   background: url(renewables2.png) no-repeat center center fixed;
     -webkit-background-size: cover; /* For WebKit
     -moz-background-size: cover;    /* Mozilla*/
@@ -6069,13 +6084,19 @@ body {
   margin-left: 10%;
 }
 
-/*.col-lg-4 {
-  width: 300px;
-}*/
+
 
 #searchcloud {
-  height: 170px;
-  width: 170px;
+  height: 140px;
+  width: 140px;
+}
+
+#how_it_works_sequence h1 {
+  color: green;
+}
+
+#how_it_works_sequence h3 {
+  margin-bottom: 40px;
 }
 
 #searchcloud {
@@ -6086,11 +6107,11 @@ body {
   /*-moz-border-radius: 200px;*/
   background-color: #d3d3d3;
   padding: 10px;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
 }
 
 #searchcloud:hover {
-  background-color: #00AF33;
+  background-color: green;
 }
 
 #link_to_faq{
@@ -6162,6 +6183,7 @@ body {
 }
 
 
+
 .show_results {
   margin-left: 20%;
   margin-right: 20%;
@@ -6169,11 +6191,21 @@ body {
 }
 
 
-#results_dropdown {
+#results_dropdown select {
   float: right;
-  margin-top: 10px;
+  margin-top: 20px;
    margin-left: 20%;
   margin-right: 20%;
+  /*display: inline-block;*/
+   /*margin-bottom: 10px;*/
+}
+
+#results_dropdown p {
+  float: left;
+  margin-left: 20%;
+  margin-top: 20px;
+  font-size: 20px;
+  /*margin-bottom: 10px;*/
 }
 
 .order_results {

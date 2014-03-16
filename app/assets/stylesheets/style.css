@@ -9,6 +9,7 @@ body {
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 }
 
+
 /* Navigation Styling Starts */
 
 .nav {
@@ -50,6 +51,8 @@ body {
 footer {
   background-color: #edeef0;
   height: 60px;
+  bottom: 0;
+  /*position: absolute;*/
 }
 
 .social {
