@@ -5868,6 +5868,7 @@ body {
 
 .nav {
   margin-right: 20px;
+
 }
 .nav a {
   margin-top: 20px;
@@ -5886,7 +5887,8 @@ body {
 }
 
 .navbar {
-  padding-top: 10px;
+  /*padding-top: 10px;*/
+  background-color: rgba(26, 26, 102, 0.5);
 }
 
 .container {
@@ -5926,7 +5928,7 @@ body {
   font-size: 50px;
   margin-right: 5%;
   margin-left: 5%;
-  padding-top: 120px;
+  padding-top: 200px;
 }
 
 .home h3 {
@@ -6044,9 +6046,9 @@ body {
 #how_it_works_intro h2 {
   text-align: center;
   /*color: green;*/
-  margin-left: 5%;
-  margin-right: 5%;
-  font-size: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 20px;
   font-weight: bold;
 
 }
@@ -6162,6 +6164,7 @@ body {
 }
 
 
+
 .show_results {
   margin-left: 20%;
   margin-right: 20%;
@@ -6169,11 +6172,21 @@ body {
 }
 
 
-#results_dropdown {
+#results_dropdown select {
   float: right;
-  margin-top: 10px;
+  margin-top: 20px;
    margin-left: 20%;
   margin-right: 20%;
+  /*display: inline-block;*/
+   /*margin-bottom: 10px;*/
+}
+
+#results_dropdown p {
+  float: left;
+  margin-left: 20%;
+  margin-top: 20px;
+  font-size: 20px;
+  /*margin-bottom: 10px;*/
 }
 
 .order_results {
@@ -6302,11 +6315,19 @@ body {
 .accordion-inner {
   font-size: 17px;
   margin-bottom: 10px;
+  margin-left: 25px;
 }
 .accordion-inner a {
   color: green;
 }
 
+.faq h1 {
+  text-align: center;
+}
 
+.faq a {
+  color: green;
+
+}
 
 /* End FAQ Page Styling */

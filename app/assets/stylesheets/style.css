@@ -13,6 +13,7 @@ body {
 
 .nav {
   margin-right: 20px;
+
 }
 .nav a {
   margin-top: 20px;
@@ -31,7 +32,8 @@ body {
 }
 
 .navbar {
-  padding-top: 10px;
+  /*padding-top: 10px;*/
+  background-color: rgba(26, 26, 102, 0.5);
 }
 
 .container {
@@ -307,6 +309,7 @@ body {
 }
 
 
+
 .show_results {
   margin-left: 20%;
   margin-right: 20%;
@@ -314,11 +317,21 @@ body {
 }
 
 
-#results_dropdown {
+#results_dropdown select {
   float: right;
-  margin-top: 10px;
+  margin-top: 20px;
    margin-left: 20%;
   margin-right: 20%;
+  /*display: inline-block;*/
+   /*margin-bottom: 10px;*/
+}
+
+#results_dropdown p {
+  float: left;
+  margin-left: 20%;
+  margin-top: 20px;
+  font-size: 20px;
+  /*margin-bottom: 10px;*/
 }
 
 .order_results {
