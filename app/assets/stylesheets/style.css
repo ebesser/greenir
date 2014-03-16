@@ -330,8 +330,8 @@ footer {
 
 
 .show_results {
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
 
 }
 
@@ -339,15 +339,15 @@ footer {
 #results_dropdown select {
   float: right;
   margin-top: 20px;
-   margin-left: 20%;
-  margin-right: 20%;
+   margin-left: 10%;
+  margin-right: 12%;
   /*display: inline-block;*/
    /*margin-bottom: 10px;*/
 }
 
 #results_dropdown p {
   float: left;
-  margin-left: 20%;
+  margin-left: 10%;
   margin-top: 20px;
   font-size: 20px;
   /*margin-bottom: 10px;*/
