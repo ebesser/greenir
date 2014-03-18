@@ -22,8 +22,4 @@ class UtilitiesController < ApplicationController
       params.require(:utility).permit(:name, :description, :price)
   end
 
-  def test
-
-  end
-
 end
