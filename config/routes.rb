@@ -8,4 +8,6 @@ GreenirSite::Application.routes.draw do
 
   get 'faq' => 'utilities#faq'
 
+  get 'comingsoon' => 'utilities#coming_soon'
+
 end
